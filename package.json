@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
@@ -23,7 +22,5 @@
     "inquirer": "^8.1.0",
     "mysql2": "^2.2.5"
   },
-  "devDependencies": {
-    "jest": "^27.0.1"
-  }
+  "devDependencies": {}
 }
