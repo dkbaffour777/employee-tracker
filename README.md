@@ -2,7 +2,7 @@
 
 ## Description 
 
-  Employee Tracker enables users view and manage the departments, roles, and employees of their company so that they can organize and plan their business. Node.js and inquirer library for command line user interfaces and a custom Javascript functionality that contains a markdown were used to accomplish this task.
+  Employee Tracker enables users to view and manage the departments, roles, and employees of their company so that they can organize and plan their business. Node.js, inquirer library and console table were used to accomplish this task.
 
 !['app'](assets/images/app.PNG)
   
@@ -13,7 +13,14 @@
   - Run 'npm install' in the root directory
   
 ## Usage 
-  
+
+  - Update the user and password in the 'employee-tracker/db/connection.js' file to yours.
+  - To have the the database and tables created with seeds or values run the following commands in the 'employee-tracker' directory:
+    - mysql -u root -p (Hit enter and enter your password)
+    - SOURCE db/db.sql
+    - SOURCE db/schema.sql
+    - SOURCE db/seeds.sql
+    - quit; (To exit out of mysql command line interface)
   - For clarity, watch the videos below for a quick tutorial on how to use the application:
     - Video 1: https://drive.google.com/file/d/1-5XQtUxkmt3caAVBtst0L7pm8HJTjaYZ/view
     - Video 2: https://drive.google.com/file/d/1zFcEiL-xrdGNACIoFVnxiMc54dQcTHNK/view
