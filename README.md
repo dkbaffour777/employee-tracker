@@ -2,7 +2,7 @@
 
 ## Description 
 
-  Employee Tracker enables users to view and manage the departments, roles, and employees of their company so that they can organize and plan their business. Node.js, inquirer library and console table f were used to accomplish this task.
+  Employee Tracker enables users to view and manage the departments, roles, and employees of their company so that they can organize and plan their business. Node.js, inquirer library and console table were used to accomplish this task.
 
 !['app'](assets/images/app.PNG)
   
